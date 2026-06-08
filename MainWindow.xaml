@@ -1,0 +1,67 @@
+﻿<Window x:Class="zd1_Romanov_Shop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zd1_Romanov_Shop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="991" Width="1105">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="965" VerticalAlignment="Top" Width="1095">
+            <Menu HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100">
+                <MenuItem Header="Магазин" Click="Task1_Click" Width="100"/>
+                <MenuItem Header="Прибыль" Click="Task2_Click" Width="100"/>
+                <MenuItem Header="Плейлист" Click="Task3_Click" Width="100"/>
+            </Menu>
+        </StackPanel>
+
+        
+
+        <StackPanel x:Name="Task1_Panel" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="318" Grid.ColumnSpan="2" Margin="242,100,232,0" Visibility="Collapsed">
+            <Label Content="Магазин" Background="ForestGreen" FontSize="20" HorizontalAlignment="Center" Foreground="White" Height="40" Width="318"/>
+            <TextBox x:Name="ProductName" ToolTip="Название продукта" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <TextBox x:Name="ProductPrice" ToolTip="Цена продукта" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <TextBox x:Name="ProductAmount" ToolTip="кол-во продукта" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <DataGrid x:Name="Grid" AutoGenerateColumns="False" SelectionMode="Extended" ToolTip="Список" FontSize="20" Height="418" Background="LightGray" IsReadOnly="True" Width="316" RenderTransformOrigin="0.5,0.5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Price" Binding="{Binding Price}"/>
+                    <DataGridTextColumn Header="Amount" Binding="{Binding Amount}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <Button Content="Добавить" FontSize="16" Foreground="White" Click="Button_Click" Background="Green" Height="30"/>
+            <Button Content="Продать" FontSize="16" Foreground="White" Click="Sell_Click" Background="Red" Height="30"/>
+            <Button Content="Поиск" FontSize="16" Foreground="White" Click="Search_Click" Background="Green" Height="30"/>
+        </StackPanel>
+
+        <StackPanel x:Name="Task1_Gains_Panel" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="318" Grid.ColumnSpan="2" Margin="242,60,232,0" Visibility="Collapsed">
+            <Label x:Name="gains_label" Content="Прибыль:" Background="ForestGreen" FontSize="20" HorizontalAlignment="Center" Foreground="White" Height="40" Width="318"/>
+        </StackPanel>
+
+        <StackPanel x:Name="Task3_Panel" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Width="318" Grid.ColumnSpan="2" Margin="242,100,232,0" Visibility="Visible">
+            <Label Content="Плейлист" Background="ForestGreen" FontSize="20" HorizontalAlignment="Center" Foreground="White" Height="40" Width="318"/>
+            <TextBox x:Name="SongTitle" ToolTip="Название песни" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <TextBox x:Name="AuthorName" ToolTip="Имя автора" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <TextBox x:Name="FileName" ToolTip="Путь к файлу" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <TextBox x:Name="Index_TextBox" ToolTip="Индекс" FontSize="20" Height="30" TextWrapping="Wrap" Background="LightGray"/>
+            <DataGrid x:Name="Grid_Playlist" AutoGenerateColumns="False" SelectionMode="Single" ToolTip="Список" FontSize="20" Height="418" Background="LightGray" IsReadOnly="True" Width="316" RenderTransformOrigin="0.5,0.5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Title" Binding="{Binding Title}"/>
+                    <DataGridTextColumn Header="Author" Binding="{Binding Author}"/>
+                    <DataGridTextColumn Header="FileName" Binding="{Binding Filename}"/>
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <Button Content="Добавить" FontSize="16" Foreground="White" Click="Add_Song_Click" Background="Green" Height="30"/>
+            <Button Content="Удалить" FontSize="16" Foreground="White" Click="Delete_Song_Click" Background="Red" Height="30"/>
+            <Button Content="Очистить" FontSize="16" Foreground="White" Click="Clear_Playlist_Click" Background="Red" Height="30"/>
+            <Button Content="Поиск" FontSize="16" Foreground="White" Click="Search_Song_Click" Background="Green" Height="30"/>
+            <Button Content="Вернуться к началу" FontSize="16" Foreground="White" Click="Return_Click" Background="Green" Height="30"/>
+            <Button Content="Следующая песня" FontSize="16" Foreground="White" Click="Next_Click" Background="Green" Height="30"/>
+            <Button Content="Предыдущая песня" FontSize="16" Foreground="White" Click="Previous_Click" Background="Green" Height="30"/>
+        </StackPanel>
+    </Grid>
+</Window>

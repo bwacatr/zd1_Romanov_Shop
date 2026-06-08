@@ -1,0 +1,31 @@
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.AssemblyReference.cache
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\MainWindow.g.cs
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\App.g.cs
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop_MarkupCompile.cache
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop_MarkupCompile.lref
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.exe.config
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.exe
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.pdb
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\MainWindow.baml
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.g.resources
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.Properties.Resources.resources
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.GenerateResource.cache
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.CoreCompileInputs.cache
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.exe
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.pdb
+C:\Users\Анатолий\Desktop\задачи\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.exe.config
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.exe.config
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.exe
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\bin\Debug\zd1_Romanov_Shop.pdb
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.AssemblyReference.cache
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\MainWindow.g.cs
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\App.g.cs
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop_MarkupCompile.cache
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop_MarkupCompile.lref
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\MainWindow.baml
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.g.resources
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.Properties.Resources.resources
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.GenerateResource.cache
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.csproj.CoreCompileInputs.cache
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.exe
+C:\Users\305-7\Desktop\Романов ПР-21\zd1_Romanov_Shop-main\obj\Debug\zd1_Romanov_Shop.pdb
